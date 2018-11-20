@@ -2,8 +2,15 @@
     "name": "morilog/bijective-shortener-cli",
     "description": "PHP Bijective Shortener CLI",
     "keywords": [
-        "framework",
-        "laravel"
+        "morilog",
+        "short id",
+        "bijective shortener"
+    ],
+    "authors": [
+        {
+            "name": "Morteza Parvini",
+            "homepage": "https://github.com/morilog/bijective-shortener-cli"
+        }
     ],
     "license": "MIT",
     "type": "project",
@@ -15,5 +22,7 @@
     "require": {
         "reshadman/bijective-shortener": "^1.0"
     },
-    "bin": ["bshort"]
+    "bin": [
+        "bshort"
+    ]
 }
