@@ -1,0 +1,19 @@
+{
+    "name": "morilog/bijective-shortener-cli",
+    "description": "PHP Bijective Shortener CLI",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Morilog\\BijectiveShortener\\": "src/"
+        }
+    },
+    "require": {
+        "reshadman/bijective-shortener": "^1.0"
+    },
+    "bin": ["bshort"]
+}

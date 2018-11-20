@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Morilog\BijectiveShortener\Console\Shortener;
+use Symfony\Component\Console\Application;
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+
+$app = new Application();
+
+$app->add(new Shortener());
+$app->setDefaultCommand('shorten', true);
+$app->run();
