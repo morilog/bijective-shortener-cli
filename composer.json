@@ -19,7 +19,8 @@
         }
     },
     "require": {
-        "reshadman/bijective-shortener": "^1.0"
+        "reshadman/bijective-shortener": "^1.0",
+        "symfony/console": "v4.1.7"
     },
     "bin": [
         "bshort"
